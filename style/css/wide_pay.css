@@ -1,0 +1,208 @@
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {    
+    display:flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+  position: inherit;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  vertical-align: top;
+  border-bottom: 1px solid rgb(0,0,0, 0.2);
+}
+
+
+.topbar-logo {
+  position: inherit;
+  top: 0;
+  margin: 1px 0 0 2em;
+  padding: 15px;
+  height: 100%;
+}
+
+.content {
+  width: 70%;
+  height: 68%;
+  margin: 5% auto 0 auto;
+  padding: 0;
+  padding: 0;
+
+  background-color: #ffff;
+}
+
+.field-typing{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.field-upload{
+  float: left;
+  width: 35%;
+  height: 250px !important;
+  padding: 0 3%;
+}
+
+.form{
+  width: 60%;
+  height: 58%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.input{
+  width: 100%;
+  padding: 0;
+}
+
+.pass{
+  margin: 2% 0;
+    width: 100%;
+    height: 38px;
+    border: 0;
+    display:flex;
+    flex-direction: row;
+}
+
+.input-pass-a{
+  margin: 0 5px 0 0;
+  width: 47%;
+  padding: 0;
+}
+
+.input-pass-b{
+  margin: 0 0 0 auto;
+  width: 47%;
+  padding: 0;
+}
+
+.dados{
+  width: 100%;
+  margin: 5% 0 4% 0;
+  padding: 0;
+}
+
+.dados-input{
+  width: 100%;
+  margin: 2% 0;
+  padding: 0;
+} 
+
+.button-send{
+  margin: 15px auto 5px;
+  width: 100%;
+  height: 12%;
+  padding: 0;
+} 
+
+.user_foto{
+  border: 1px solid #86754d;
+  min-width: 100%;
+  max-height: 93%;
+  height: auto;
+  padding: 0;
+  top: 0;
+  vertical-align: top;
+}
+
+.arquivo{
+  min-width: 100%;
+  height: 15%;
+  margin: 10% 0;
+  padding: 1%;
+  
+   text-align: center;
+   font-size: 100%;
+}
+
+.button{    
+  height: 33px;
+  margin: 0 0 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.add{    
+  float: left;
+  width: 15%;
+  height: 100%;
+
+  font-size: 80%;
+}
+
+.logout{    
+  float: Right;
+  width: 10%;
+  height: 100%;
+
+  margin: 0 1% 0 0;
+
+  font-size: 80%;
+}
+
+
+
+.tabela{
+  top: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.tabela_div{
+  height: 85%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.close{
+  display: none;
+  margin: auto;
+  width: 100%;
+  height: 12%;
+  padding: 0;
+}
+
+.screen_login{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.screen_login_input{
+  width: 80%;
+  margin: 5% auto !important;
+  display: block !important;
+}
+
+thead{
+  background-color: rgb(171, 171,121);
+}
+table{
+  border: 1px solid rgb(26,26,26,0.9);
+}
